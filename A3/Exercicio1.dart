@@ -1,9 +1,13 @@
 void main() {
   List<double> numeros = [10.0, 8.0, 9.0, 7.0, 10.0, 7.5, 9.0, 9.4];
 
-  double soma = numeros.reduce((a, b) => a + b);
+  double soma = 0;
+
+  for (double numero in numeros) {
+    soma += numero;
+  }
 
   double media = soma / numeros.length;
 
-  print("A média dos números na lista é: $media");
+  print("A média dos números é : $media");
 }
