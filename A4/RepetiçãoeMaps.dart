@@ -1,5 +1,5 @@
 void main() {
-  Map<String, double> frutas = {
+  Map <String, double> frutas = {
     'banana': 2.5,
     'maçã': 3.0,
     'laranja': 2.0,
